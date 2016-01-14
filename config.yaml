@@ -1,0 +1,12 @@
+environment:
+  url: http://www.imdb.com
+
+test_configuration:
+  web:
+    browser: chrome
+    mode: local
+    server: http://localhost:4444/wd/hub
+
+ui_spec_location: ./dsl/web/ui/production
+
+log_file: "./test_execution.log"

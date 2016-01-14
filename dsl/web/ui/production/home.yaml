@@ -1,0 +1,8 @@
+url: ""
+title: IMDb - Movies, TV and Celebrities - IMDb
+timeout: 30
+
+elements:
+  container:
+    findby: css
+    locator: .abc

@@ -1,0 +1,12 @@
+elements:
+  container:
+    findby: css
+    locator: "div#navbar"
+    children:
+      search_entry:
+        findby: css
+        locator: "input#navbar-query"
+      search_button:
+        findby: css
+        locator: "button#navbar-submit-button"
+        
